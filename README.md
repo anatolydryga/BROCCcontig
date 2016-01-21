@@ -12,3 +12,6 @@ That script reads `sequences.inp` with list of fasta files to blast.
 # Taxonomy annotation with BROCC
 
 ... in progress ...
+
+# RESULTS 
+Results are in `/media/THING1/dryga/BROCCcontig`
