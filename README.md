@@ -19,6 +19,21 @@ Note that we need to specify `--min_species_id`
 and `--min_genus_id`, at present they are arbitrary set to
 60 and 40 % respectively(that might need optimization).
 
+# Standard Taxonomy Ranks
+
+We can parse output of BROCC and extract standard taxonomy 
+ranks:
+```
+    Rscipt split_standard_taxa.R BROCC_Bushman_Phage_88014_polished_assembly/Standard_Taxonomy.txt output.tsv
+```
+That creates `output.tsv` with ""seqName", "Kingdom" "Phylum"  "Class"
+"Order"   "Family"  "Genus"   "Species" columns.
+
+We can generate standard ranks with:
+```
+run_standard_taxa.py ...
+```
+
 
 # RESULTS 
 Results are in `/media/THING1/dryga/BROCCcontig`
