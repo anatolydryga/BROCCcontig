@@ -1,0 +1,4 @@
+blasted_Stool_freah_bac_79817HGAP3_assembly_q3.out
+blasted_Stool_total_bacterial_HGAP3_q4.out
+blasted_Bushman_Phage_88393_polished_assembly.out
+blasted_Bushman_Phage_88014_polished_assembly.out
