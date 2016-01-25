@@ -14,13 +14,13 @@ run blast and saves names of created files in `blast_files.txt`.
 
 Once blast hits are generated we can run BROCC with:
 ```
-./run_brocc.py sequence_blast.txt > brocc_files.txt 
+./run_brocc.py sequence_blast_files.txt > brocc_files.txt 
 ```
 Note that we need to specify `--min_species_id`
 and `--min_genus_id`, at present they are arbitrary set to
 60 and 40 % respectively(that might need optimization).
 
-`sequence_blast.txt` has 2 columns: sequence file name and blast file name,
+`sequence_blast_files.txt` has 2 columns: sequence file name and blast file name,
 we can create this file with:
 ```
 paste sequence_files.txt blast_files.txt > sequence_blast_files.txt
